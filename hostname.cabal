@@ -19,4 +19,4 @@ Library
         if os(windows)
                          Build-Depends:   Win32 >= 2.0
                          Cpp-Options:     -DWINDOWS
-                         Extra-Libraries: "kernel32
+                         Extra-Libraries: "kernel32"

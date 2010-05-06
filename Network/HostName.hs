@@ -23,7 +23,7 @@ computerNamePhysicalDnsHostname :: COMPUTER_NAME_FORMAT
 computerNamePhysicalDnsHostname = 5
 
 getHostName :: IO HostName
-getHostName = with 0 $ \charcount -> do
+getHostName = with 0 $ \p_charcount -> do
     -- On the first run, determine the character count and ignore any error we get
     _ <- getComputerNameEx computerNamePhysicalDnsHostname nullPtr p_charcount
     charcount <- peek p_charcount
