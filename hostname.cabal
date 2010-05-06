@@ -12,7 +12,7 @@ Build-Type:         Simple
 Library
         Exposed-Modules: Network.HostName
                          
-        Build-Depends:   base >= 3
+        Build-Depends:   base >= 3 && < 5
                          
         Extensions:      CPP, ForeignFunctionInterface
         
