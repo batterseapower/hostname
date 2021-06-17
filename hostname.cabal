@@ -1,6 +1,6 @@
 Name:               hostname
 Version:            1.0
-Cabal-Version:      >= 1.2
+Cabal-Version:      >= 1.8
 Category:           Network
 Synopsis:           A very simple package providing a cross-platform means of determining the hostname
 License:            BSD3
